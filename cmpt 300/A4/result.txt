@@ -1,0 +1,109 @@
+
+./UnixLs  -li . .. ~ > result.txt
+-rw------- 1          bsb10      cmpt-csil-users 11507       Apr 12 2024 13:41         UnixLs.c   
+-rwx------ 1          bsb10      cmpt-csil-users 50213       Apr 12 2024 12:17         infodemo   
+-rw------- 1          bsb10      cmpt-csil-users 873         Apr 12 2024 12:17         infodemo.c 
+-rw------- 1          bsb10      cmpt-csil-users 72          Apr 12 2024 12:17         makefile   
+-rwx------ 1          bsb10      cmpt-csil-users 21160       Apr 12 2024 13:41         UnixLs     
+-rw------- 1          bsb10      cmpt-csil-users 0           Apr 12 2024 13:42         result.txt 
+
+./UnixLs  -li . .. ~ >> result.txt
+Directory: .
+ 6803611722 -rw------- 1          bsb10      cmpt-csil-users 11507       Apr 12 2024 13:41         UnixLs.c   
+ 6803611724 -rwx------ 1          bsb10      cmpt-csi./UnixLs  -li . .. ~ > result.txtl-users 50213       Apr 12 2024 12:17         infodemo   
+ 6803611727 -rw------- 1          bsb10      cmpt-csil-users 873         Apr 12 2024 12:17         infodemo.c 
+ 6803611730 -rw------- 1          bsb10      cmpt-csil-users 72          Apr 12 2024 12:17         makefile   
+ 7324721781 -rwx------ 1          bsb10      cmpt-csil-users 21160       Apr 12 2024 13:41         UnixLs     
+ 7531335672 -rw------- 1          bsb10      cmpt-csil-users 594         Apr 12 2024 13:42         result.txt 
+
+Directory: ..
+ 6553528211 drwx------ 2          bsb10      cmpt-csil-users 6           Mar 25 2024 11:23         A1         
+ 164428691  drwx------ 3          bsb10      cmpt-csil-users 112         Mar 25 2024 11:23         A2         
+ 4324972597 drwx------ 2          bsb10      cmpt-csil-users 180         Apr 12 2024 12:17         A3         
+ 164428698  -rw------- 1          bsb10      cmpt-csil-users 11          Mar 25 2024 11:23         README.md  
+ 6803611718 drwx------ 2          bsb10      cmpt-csil-users 132         Apr 12 2024 13:41         A4         
+
+Directory: /home/bsb10
+ 228        drwx------ 2          bsb10      domain users 0           Feb 27 2024 14:23         sfuhome    
+ 4524980512 drwxr-xr-x 2          bsb10      cmpt-csil-users 10          Oct 10 2023 19:03         Desktop    
+ 6729808651 drwxr-xr-x 5          bsb10      cmpt-csil-users 219         Mar 26 2024 15:01         Downloads  
+ 607923568  drwxr-xr-x 2          bsb10      cmpt-csil-users 269         Jan 20 2022 22:04         Templates  
+ 2455395238 drwxr-xr-x 2          bsb10      cmpt-csil-users 10          Jan 20 2022 22:04         Public     
+ 4524980513 drwxr-xr-x 2          bsb10      cmpt-csil-users 42          Aug 03 2022 23:24         Documents  
+ 6729808657 drwxr-xr-x 2          bsb10      cmpt-csil-users 10          Jan 20 2022 22:04         Music      
+ 607923569  drwxr-xr-x 2          bsb10      cmpt-csil-users 10          Jan 20 2022 22:04         Pictures   
+ 2455395239 drwxr-xr-x 2          bsb10      cmpt-csil-users 10          Jan 20 2022 22:04         Videos     
+ 7455332678 lrwxrwxrwx 1          bsb10      cmpt-csil-users 41          Feb 01 2022 15:13         VirtualBox VMs->/usr/shared/CMPT/scratch/bsb10/VirtualBox 
+ 1022176078 drwx------ 3          bsb10      cmpt-csil-users 47          Apr 12 2024 12:14         snap       
+ 374719320  drwxr-xr-x 3          bsb10      cmpt-csil-users 41          Jul 13 2022 18:56         GitWorkshop 
+ 1020441621 drwxr-xr-x 2          bsb10      cmpt-csil-users 10          Sep 12 2023 15:55         dsd        
+ 3120338126 drwxr-xr-x 4          bsb10      cmpt-csil-users 70          Nov 15 2023 15:27         vscode-cpptools 
+ 7465198266 drwxr-xr-x 2          bsb10      cmpt-csil-users 10          Feb 27 2024 11:10         tsclient   
+ 7639687549 lrwxrwxrwx 1          bsb10      cmpt-csil-users 38          Mar 25 2024 16:30         Android->/usr/shared/CMPT/scratch/bsb10/Android 
+ 164420152  drwx------ 7          bsb10      cmpt-csil-users 146         Apr 12 2024 12:17         CMPT-300   
+
+
+./UnixLs -i -l .. ~ >> result.txt
+Directory: ..
+ 6553528211 drwx------ 2          bsb10      cmpt-csil-users 6           Mar 25 2024 11:23         A1         
+ 164428691  drwx------ 3          bsb10      cmpt-csil-users 112         Mar 25 2024 11:23         A2         
+ 4324972597 drwx------ 2          bsb10      cmpt-csil-users 180         Apr 12 2024 12:17         A3         
+ 164428698  -rw------- 1          bsb10      cmpt-csil-users 11          Mar 25 2024 11:23         README.md  
+ 6803611718 drwx------ 2          bsb10      cmpt-csil-users 132         Apr 12 2024 13:41         A4         
+
+Directory: /home/bsb10
+ 228        drwx------ 2          bsb10      domain users 0           Feb 27 2024 14:23         sfuhome    
+ 4524980512 drwxr-xr-x 2          bsb10      cmpt-csil-users 10          Oct 10 2023 19:03         Desktop    
+ 6729808651 drwxr-xr-x 5          bsb10      cmpt-csil-users 219         Mar 26 2024 15:01         Downloads  
+ 607923568  drwxr-xr-x 2          bsb10      cmpt-csil-users 269         Jan 20 2022 22:04         Templates  
+ 2455395238 drwxr-xr-x 2          bsb10      cmpt-csil-users 10          Jan 20 2022 22:04         Public     
+ 4524980513 drwxr-xr-x 2          bsb10      cmpt-csil-users 42          Aug 03 2022 23:24         Documents  
+ 6729808657 drwxr-xr-x 2          bsb10      cmpt-csil-users 10          Jan 20 2022 22:04         Music      
+ 607923569  drwxr-xr-x 2          bsb10      cmpt-csil-users 10          Jan 20 2022 22:04         Pictures   
+ 2455395239 drwxr-xr-x 2          bsb10      cmpt-csil-users 10          Jan 20 2022 22:04         Videos     
+ 7455332678 lrwxrwxrwx 1          bsb10      cmpt-csil-users 41          Feb 01 2022 15:13         VirtualBox VMs->/usr/shared/CMPT/scratch/bsb10/VirtualBox 
+ 1022176078 drwx------ 3          bsb10      cmpt-csil-users 47          Apr 12 2024 12:14         snap       
+ 374719320  drwxr-xr-x 3          bsb10      cmpt-csil-users 41          Jul 13 2022 18:56         GitWorkshop 
+ 1020441621 drwxr-xr-x 2          bsb10      cmpt-csil-users 10          Sep 12 2023 15:55         dsd        
+ 3120338126 drwxr-xr-x 4          bsb10      cmpt-csil-users 70          Nov 15 2023 15:27         vscode-cpptools 
+ 7465198266 drwxr-xr-x 2          bsb10      cmpt-csil-users 10          Feb 27 2024 11:10         tsclient   
+ 7639687549 lrwxrwxrwx 1          bsb10      cmpt-csil-users 38          Mar 25 2024 16:30         Android->/usr/shared/CMPT/scratch/bsb10/Android 
+ 164420152  drwx------ 7          bsb10      cmpt-csil-users 146         Apr 12 2024 12:17         CMPT-300   
+
+
+ ./UnixLs  -li . .. ~ >> result.txt
+Directory: .
+ 6803611722 -rw------- 1          bsb10      cmpt-csil-users 11507       Apr 12 2024 13:41         UnixLs.c   
+ 6803611724 -rwx------ 1          bsb10      cmpt-csil-users 50213       Apr 12 2024 12:17         infodemo   
+ 6803611727 -rw------- 1          bsb10      cmpt-csil-users 873         Apr 12 2024 12:17         infodemo.c 
+ 6803611730 -rw------- 1          bsb10      cmpt-csil-users 72          Apr 12 2024 12:17         makefile   
+ 7324721781 -rwx------ 1          bsb10      cmpt-csil-users 21160       Apr 12 2024 13:41         UnixLs     
+ 7531335672 -rw------- 1          bsb10      cmpt-csil-users 6548        Apr 12 2024 13:44         result.txt 
+
+Directory: ..
+ 6553528211 drwx------ 2          bsb10      cmpt-csil-users 6           Mar 25 2024 11:23         A1         
+ 164428691  drwx------ 3          bsb10      cmpt-csil-users 112         Mar 25 2024 11:23         A2         
+ 4324972597 drwx------ 2          bsb10      cmpt-csil-users 180         Apr 12 2024 12:17         A3         
+ 164428698  -rw------- 1          bsb10      cmpt-csil-users 11          Mar 25 2024 11:23         README.md  
+ 6803611718 drwx------ 2          bsb10      cmpt-csil-users 132         Apr 12 2024 13:41         A4         
+
+Directory: /home/bsb10
+ 228        drwx------ 2          bsb10      domain users 0           Feb 27 2024 14:23         sfuhome    
+ 4524980512 drwxr-xr-x 2          bsb10      cmpt-csil-users 10          Oct 10 2023 19:03         Desktop    
+ 6729808651 drwxr-xr-x 5          bsb10      cmpt-csil-users 219         Mar 26 2024 15:01         Downloads  
+ 607923568  drwxr-xr-x 2          bsb10      cmpt-csil-users 269         Jan 20 2022 22:04         Templates  
+ 2455395238 drwxr-xr-x 2          bsb10      cmpt-csil-users 10          Jan 20 2022 22:04         Public     
+ 4524980513 drwxr-xr-x 2          bsb10      cmpt-csil-users 42          Aug 03 2022 23:24         Documents  
+ 6729808657 drwxr-xr-x 2          bsb10      cmpt-csil-users 10          Jan 20 2022 22:04         Music      
+ 607923569  drwxr-xr-x 2          bsb10      cmpt-csil-users 10          Jan 20 2022 22:04         Pictures   
+ 2455395239 drwxr-xr-x 2          bsb10      cmpt-csil-users 10          Jan 20 2022 22:04         Videos     
+ 7455332678 lrwxrwxrwx 1          bsb10      cmpt-csil-users 41          Feb 01 2022 15:13         VirtualBox VMs->/usr/shared/CMPT/scratch/bsb10/VirtualBox 
+ 1022176078 drwx------ 3          bsb10      cmpt-csil-users 47          Apr 12 2024 12:14         snap       
+ 374719320  drwxr-xr-x 3          bsb10      cmpt-csil-users 41          Jul 13 2022 18:56         GitWorkshop 
+ 1020441621 drwxr-xr-x 2          bsb10      cmpt-csil-users 10          Sep 12 2023 15:55         dsd        
+ 3120338126 drwxr-xr-x 4          bsb10      cmpt-csil-users 70          Nov 15 2023 15:27         vscode-cpptools 
+ 7465198266 drwxr-xr-x 2          bsb10      cmpt-csil-users 10          Feb 27 2024 11:10         tsclient   
+ 7639687549 lrwxrwxrwx 1          bsb10      cmpt-csil-users 38          Mar 25 2024 16:30         Android->/usr/shared/CMPT/scratch/bsb10/Android 
+ 164420152  drwx------ 7          bsb10      cmpt-csil-users 146         Apr 12 2024 12:17         CMPT-300   
+
+
